@@ -15,7 +15,7 @@
 #
 
 #
-# This script is based on the oVirt sdk example scripts:
+# This script is based on the oVirt sdk example scripts from Red Hat, Inc:
 # https://github.com/oVirt/ovirt-engine-sdk/tree/master/sdk/examples
 #
 
