@@ -1,7 +1,8 @@
-# ovirt-start-vms
-This is a simple sript for starting all VMs in a oVirt environment.
+# ovirt-python-scripts
 
-For using it you need **python3** and the oVirt python SDK:
+Some simple scripts based on ovirt python sdk 4.
+
+For using them you need **python3** and the oVirt python SDK:
 
 ```
 pip3 install ovirt-engine-sdk-python
