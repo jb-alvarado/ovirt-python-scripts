@@ -38,7 +38,7 @@ vms = vms_service.list()
 shutdown_list = []
 
 for vm in vms:
-    if vm.status == types.VmStatus.UP:
+    if vm.status == types.VmStatus.UP and vm.name != "HostedEngine":
         shutdown_list.append(vm.id)
         service = vms_service.vm_service(vm.id)
 
